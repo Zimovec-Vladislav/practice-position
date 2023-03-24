@@ -1,4 +1,6 @@
 body {
+    margin: 0;
+
     background-color: lightgrey;
 }
 
@@ -8,8 +10,10 @@ body {
 
     background-color:deepskyblue;
 
-    margin: 100px auto;
+    margin: 50px auto;
     position: relative;
+
+    overflow: hidden;
 }
 
 .road {
@@ -23,5 +27,37 @@ body {
     bottom: 35px;
     left: 50px;
 
+    z-index: 4;
+}
+
+.tree {
+    position: absolute;
+    top: 50px;
+    left: 10px;
+
+    z-index: 3;
+}
+
+.cloud {
+    position: absolute;
+    top: 14px;
+    left: -85px;
+
     z-index: 2;
+}
+
+.cloud2 {
+    position: absolute;
+    top: 56px;
+    right: 165px;
+
+    z-index: 1;
+}
+
+.cloud3 {
+    position: absolute;
+    top: -28px;
+    left: 40px;
+
+    z-index: 1;
 }
