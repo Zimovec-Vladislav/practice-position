@@ -1,0 +1,27 @@
+body {
+    background-color: lightgrey;
+}
+
+.composition {
+    width: 650px;
+    height: 400px;
+
+    background-color:deepskyblue;
+
+    margin: 100px auto;
+    position: relative;
+}
+
+.road {
+    position: absolute;
+    bottom: 0;
+    z-index: 1;
+}
+
+.car {
+    position: absolute;
+    bottom: 35px;
+    left: 50px;
+
+    z-index: 2;
+}
