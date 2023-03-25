@@ -1,0 +1,13 @@
+body {
+    margin: 0;
+
+    background-color: beige;
+}
+
+.composition {
+    width: 650px;
+    height: 282px;
+
+    margin: 20px auto;
+    background-color: skyblue;
+}
